@@ -17,4 +17,8 @@ pip install -r requirements.txt
 flask run
 ```
 
+```
+docker run --name weather -d -p 5000:5000 leandromatpereira/weather-app-flask:latest
+```
+
 Deploy no Heroku: https://app-weather-flask.herokuapp.com/
